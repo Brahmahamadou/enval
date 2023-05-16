@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commande</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="">
+</head>
+
+<body class="fs-5" style=" background-color: #d4eef3;">
+  <div class="col-12 d-flex">
+    <nav id="sidebarMenu" class=" col-lg-2 col-md-1 col-sm-1 bg-body-tertiary sidebar ">
+      <div class=" bg-white ">
+        <img class="col-11 d-none d-lg-block" src="téléchargement.png">
+        <ul class="nav flex-column ">
+          <li class="nav-item">
+            <a href="dashboard.html" class="nav-link text-black">
+              <svg class="bi pe-none me-2" width="16" height="16" xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="currentColor" class="bi bi-columns-gap" viewBox="0 0 16 16">
+                <path
+                  d="M6 1v3H1V1h5zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12v3h-5v-3h5zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8v7H1V8h5zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6v7h-5V1h5zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z" />
+              </svg>
+              <p class="d-none d-lg-inline text-black-50">Dashboard</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="Facture.html" class="nav-link text-black">
+              <svg class="bi pe-none me-2" width="16" height="16" xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="currentColor" class="bi bi-receipt" viewBox="0 0 16 16">
+                <path
+                  d="M1.92.506a.5.5 0 0 1 .434.14L3 1.293l.646-.647a.5.5 0 0 1 .708 0L5 1.293l.646-.647a.5.5 0 0 1 .708 0L7 1.293l.646-.647a.5.5 0 0 1 .708 0L9 1.293l.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .801.13l.5 1A.5.5 0 0 1 15 2v12a.5.5 0 0 1-.053.224l-.5 1a.5.5 0 0 1-.8.13L13 14.707l-.646.647a.5.5 0 0 1-.708 0L11 14.707l-.646.647a.5.5 0 0 1-.708 0L9 14.707l-.646.647a.5.5 0 0 1-.708 0L7 14.707l-.646.647a.5.5 0 0 1-.708 0L5 14.707l-.646.647a.5.5 0 0 1-.708 0L3 14.707l-.646.647a.5.5 0 0 1-.801-.13l-.5-1A.5.5 0 0 1 1 14V2a.5.5 0 0 1 .053-.224l.5-1a.5.5 0 0 1 .367-.27zm.217 1.338L2 2.118v11.764l.137.274.51-.51a.5.5 0 0 1 .707 0l.646.647.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.509.509.137-.274V2.118l-.137-.274-.51.51a.5.5 0 0 1-.707 0L12 1.707l-.646.647a.5.5 0 0 1-.708 0L10 1.707l-.646.647a.5.5 0 0 1-.708 0L8 1.707l-.646.647a.5.5 0 0 1-.708 0L6 1.707l-.646.647a.5.5 0 0 1-.708 0L4 1.707l-.646.647a.5.5 0 0 1-.708 0l-.509-.51z" />
+                <path
+                  d="M3 4.5a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm8-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z" />
+                xmlns=
+              </svg>
+              <p class="d-none d-lg-inline text-black-50">Facture</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="Commande.html" class="nav-link text-black">
+              <svg class="bi pe-none me-2" width="16" height="16" xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="currentColor" class="bi bi-bus-front-fill" viewBox="0 0 16 16">
+                <path
+                  d="M16 7a1 1 0 0 1-1 1v3.5c0 .818-.393 1.544-1 2v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2a2.496 2.496 0 0 1-1-2V8a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1V2.64C1 1.452 1.845.408 3.064.268A43.608 43.608 0 0 1 8 0c2.1 0 3.792.136 4.936.268C14.155.408 15 1.452 15 2.64V4a1 1 0 0 1 1 1v2ZM3.552 3.22A43.306 43.306 0 0 1 8 3c1.837 0 3.353.107 4.448.22a.5.5 0 0 0 .104-.994A44.304 44.304 0 0 0 8 2c-1.876 0-3.426.109-4.552.226a.5.5 0 1 0 .104.994ZM8 4c-1.876 0-3.426.109-4.552.226A.5.5 0 0 0 3 4.723v3.554a.5.5 0 0 0 .448.497C4.574 8.891 6.124 9 8 9c1.876 0 3.426-.109 4.552-.226A.5.5 0 0 0 13 8.277V4.723a.5.5 0 0 0-.448-.497A44.304 44.304 0 0 0 8 4Zm-3 7a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm8 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm-7 0a1 1 0 0 0 1 1h2a1 1 0 1 0 0-2H7a1 1 0 0 0-1 1Z" />
+                xmlns=
+              </svg>
+              <p class="d-none d-lg-inline text-black-50">Commande</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="Suivi.html" class="nav-link text-black">
+              <svg class="bi pe-none me-2" width="16" height="16" xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="currentColor" class="bi bi-clipboard2" viewBox="0 0 16 16">
+                <path
+                  d="M3.5 2a.5.5 0 0 0-.5.5v12a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-12a.5.5 0 0 0-.5-.5H12a.5.5 0 0 1 0-1h.5A1.5 1.5 0 0 1 14 2.5v12a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5v-12A1.5 1.5 0 0 1 3.5 1H4a.5.5 0 0 1 0 1h-.5Z" />
+                <path
+                  d="M10 .5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5.5.5 0 0 1-.5.5.5.5 0 0 0-.5.5V2a.5.5 0 0 0 .5.5h5A.5.5 0 0 0 11 2v-.5a.5.5 0 0 0-.5-.5.5.5 0 0 1-.5-.5Z" />
+                xmlns=
+              </svg>
+              <p class="d-none d-lg-inline text-black-50">Suivi</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="Serviceclient.html" class="nav-link text-black">
+              <svg class="bi pe-none me-2" width="16" height="16" xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
+                <path
+                  d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                <path
+                  d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z" />
+                xmlns=
+              </svg>
+              <p class="d-none d-lg-inline text-black-50"> Service Client</p>
+            </a>
+          </li>
+        </ul>
+        <!-- <div class="fixed-bottom"> -->
+        <ul class="nav flex-column"style="margin-top: 45rem;">
+          <li class="nav-item ">
+            <a href="#" class="nav-link text-black">
+              <svg class="bi pe-none me-2" width="16" height="16" xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                <path
+                  d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                <path
+                  d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+              </svg>
+              <p class="d-none d-lg-inline text-black-50">Parametre Compte</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="#" class="nav-link text-black">
+              <svg class="bi pe-none me-2" width="16" height="16" xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z" />
+                <path fill-rule="evenodd"
+                  d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z" />
+              </svg>
+              <p class="d-none d-lg-inline text-black-50"> Déconnexion</p>
+            </a>
+          </li>
+        </ul>
+        <!-- </div> -->
+      </div>
+    </nav>
+      <main class="col-md-11 col-sm-11 ms-sm-auto col-lg-10 p-1">
+        <div class="bg-white"  style="text-align: end;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="30 " fill="currentColor"
+            class="bi bi-bell ms-auto " viewBox="0 0 16 16">
+            <path
+              d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+          </svg>
+          <img src="b.png" class="mx-4 " style="width: 4%;">
+          <div
+            class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          </div>
+        </div>
+        <div class=" bg-white w-100 rounded-5 p-5">
+          <div class="table-responsive">
+          <table class="border-dark-subtle text-black-50 h-75 w-100 table table-bordered text-center">
+            <thead class="col-1">
+              <th class="border-0">Commande</th>
+              <td class="border-0"></td>
+              <td class="border-0"></td>
+              <td class="border-0"></td>
+              <td class="border-end-0 border-start-0"><input type="search" class="form-control w-50 bg-light" placeholder=""aria-label=""></td>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border-start-0">Commande</td>
+                <td>Laboratoire</td>
+                <td>Date</td>
+                <td>Status</td>
+                <td class="border-end-0">Cliquez pour voir le rapport</td>
+              </tr>
+              <tr>
+                <td class="border-start-0">00112</td>
+                <td>Enval</td>
+                <td>10/03/2023</td>
+                <td class="text-danger">En cours</td>
+                <td class="border-end-0"><button class=" btn btn-lg my-auto  mx-auto text-white"style="background: #4A96A6;" type="submit">voir</button></td>
+              </tr>
+              <tr>
+                <td class="border-start-0">00112</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="border-end-0"><button class="h-25 btn btn-lg my-auto text-white"style="background: #4A96A6;" type="submit">voir</button></td>
+              </tr>
+              <tr>
+                <td class="border-start-0">00112</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="border-end-0"><button class="h-25 btn btn-lg my-auto text-white"style="background: #4A96A6;" type="submit">voir</button></td>
+              </tr>
+              <tr>
+                <td class="border-start-0">00112</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="border-end-0"><button class="h-25 btn btn-lg my-auto mx-auto text-white"style="background: #4A96A6;" type="submit">voir</button></td>
+              </tr>
+              <tr>
+                <td class="border-start-0">00112</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="border-end-0"><button class="h-25 btn btn-lg my-auto mx-auto text-white"style="background: #4A96A6;" type="submit">voir</button></td>
+              </tr>
+
+              <tr>
+                <td class="border-start-0">00112</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="border-end-0"><button class="h-25 btn btn-lg my-auto text-white"style="background: #4A96A6;" type="submit">voir</button></td>
+              </tr>
+              <tr>
+                <td class="border-start-0">00112</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="border-end-0"><button class="h-25 btn btn-lg my-auto text-white"style="background: #4A96A6;" type="submit">voir</button></td>
+              </tr>
+              <tr>
+                <td class="border-start-0">00112</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="border-end-0"><button class="h-25 btn btn-lg my-auto text-white"style="background: #4A96A6;" type="submit">voir</button></td>
+              </tr>
+              <tr>
+                <td class="border-start-0">00112</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="border-end-0"><button class="h-25 btn btn-lg my-auto text-white"style="background: #4A96A6;" type="submit">voir</button></td>
+              </tr>
+              <tr class="border-bottom-0" style="height: 70px;">
+                <td class="border-start-0"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="border-end-0"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </div>
+      </main>
+    </div>
+</body>
+
+</html>
