@@ -18,8 +18,7 @@ span {
 li :hover{
   background-color: #d2eaf3;
   border-radius: 10px;
-  margin-left: 10px;
-  margin-right: 25px;
+  width: 250px;
 }
 .container {
   margin: auto;
@@ -74,7 +73,6 @@ svg {
   stroke-width: var(--circle-border-width);
   transition: stroke-dashoffset 1s ease-in-out;
 }
-
 .stop1 {
   stop-color:#ffffff;
 }
@@ -101,20 +99,12 @@ svg {
     transform: translate(-50%, -50%);
     padding-bottom: 90px;
    }
-  .gradient .stop1 {
-    stop-color:#e9eff0;
+  #cer .stop3 {
+    stop-color:#0f7486;
   }
-  
-  .box .stop2 {
-    stop-color:#ffffff;
+  #cer .stop4 {
+    stop-color:#3597AA;
   }
-  /* .lig{
-    text-align: left;
-    display: flex;
-   margin-left: 10em;
-   border-right: none;
-  
-  } */
   @media only screen and (max-width: 750px){
     .tab {
       flex-direction: column;
@@ -122,13 +112,25 @@ svg {
       align-items: center;
     }
     .tab1 {
-      margin-top: 5rem;
+      margin-top: 6rem;
       margin-right: 9rem;
     }
     #myChart{
-      margin-left: 12rem;
+      
     }
     .tab3 {
-      margin-left: 12rem;
+      margin-left: rem;
+      text-align: center;
+    }
+  .tab4{
+    margin-top: 3rem;
+  }
+  .tab5{
+    margin-top: -4rem;
+  }
+  }
+  @media only screen and (max-width: 320px){
+    .tab6{
+      margin-right: 2rem;
     }
   }
